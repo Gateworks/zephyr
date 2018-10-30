@@ -1,0 +1,9 @@
+# Kconfig - nRF52840 GW16126 board configuration
+#
+# Copyright (c) 2018 Gateworks Corporation
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config  BOARD_NRF52840_GW16126
+	bool "NRF52840 GW16126"
+	depends on SOC_NRF52840_QIAA

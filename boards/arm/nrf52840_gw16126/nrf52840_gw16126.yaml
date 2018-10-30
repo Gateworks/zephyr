@@ -1,0 +1,12 @@
+identifier: nrf52840_gw16126
+name: nRF52840-GW16126
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
